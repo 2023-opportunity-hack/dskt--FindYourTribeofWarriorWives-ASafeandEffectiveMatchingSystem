@@ -12,44 +12,48 @@
         <form>
             <div class="flex-container">
                 <div class="input-group">
-                    <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" name="first-name" required>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="first-name" name="firstName" required>
                 </div>
                 <div class="input-group">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name" name="last-name" required>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="last-name" name="lastName" required>
                 </div>
                 <div class="input-group">
-                    <label for="contact-details">Contact Details</label>
-                    <input type="text" id="contact-details" name="contact-details" required>
+                    <label for="contactDetails">Contact Details</label>
+                    <input type="text" id="contact-details" name="contactDetails" required>
                 </div>
                 <div class="input-group">
                     <label for="interests">Interests</label>
                     <select id="interests" name="interests" required>
-                        <option value="option1">Reading</option>
-                        <option value="option2">Singing</option>
-                        <option value="option3">Crocheting</option>
-                        <option value="option4">Yoga</option>
-                        <option value="option5">Crafting</option>
+                        <option value="reading">Reading</option>
+                        <option value="singing">Singing</option>
+                        <option value="crocheting">Crocheting</option>
+                        <option value="yoga">Yoga</option>
+                        <option value="crafting">Crafting</option>
                     </select>
                 </div>
                 <div class="input-group">
                     <label for="userStatus">Status: </label> <br>
                     <label>
-                        Married <input type="radio" name="status" id="married" value="married">
+                        Married <input type="radio" name="status" id="married" value="married" class="radbut">
                     </label>
                     <label>
-                        Widowed<input type="radio" name="status" id="widowed" value="widowed">
+                        Widowed<input type="radio" name="status" id="widowed" value="widowed" class="radbut">
                         
                     </label>
                     <label>
-                        Army Personnel<input type="radio" name="status" id="army" value="army">
+                        Army Personnel<input type="radio" name="status" id="army" value="army" class="radbut">
                     </label>
                 </div>
                 
                 <div class="input-group">
-                    <label for="document-number">Government Document Number</label>
-                    <input type="text" id="document-number" name="document-number" required>
+                    <label for="documentNumber">Government Document Number</label>
+                    <input type="text" id="document-number" name="documentNumber" required>
+                </div>
+                <div class="input-group">
+                    <label for="pass">Password</label>
+                    <input type="password" id="password" name="pass" required>
                 </div>
             </div>
             <button type="submit">Submit</button>
